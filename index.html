@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="container-border">
                 <div class="icon">
                     <img src="home.png" class="icon-1" alt="">
                             <img src="username.png" class="icon-2" alt="">
@@ -50,14 +51,33 @@
 </div>
     <div class="container-box">
         <p class="heading">RANDOM USER GENERATOR</p>
-     <p class="text1">A free,<a href="">opensource</a>API for generating random user data. Like Lorem Ipsum, but for people.</p>
+     <p class="text1">A free, <a href="">opensource</a> API for generating random user data. Like Lorem Ipsum, but for people.</p>
     </div>
     <div class="box2">
-        <img src="" class="gen-img" alt="">
+        <img src="" id="user-img" alt="">
+        <img  id="icon-1" src="person.png" alt="">
+        <img  id="icon-2" src="mail.png" alt="">
+        <img  id="icon-3" src="calender.png" alt="">
+        <img  id="icon-4" src="pin.png" alt="">
+        <img  id="icon-5" src="phone.png" alt="">
+        <img  id="icon-6" src="lock.png" alt="">
+        <div class="box2-name">
         <h2 id="user-name"></h2>
+        <p id="user-date"></p>
+        <p id="user-email"></p>
+        <p id="user-location"></p>
+        <p id="user-number"></p>
+        <p id="user-pass"></p>
+    </div>
     </div>
     <div class="box3">
+        <h2>sponcered</h2>
+        <p>RandomAPI</p>
+        <p class="service">Want to create your own <strong>customized </strong>data generator for your application?<br>
+            Check out our other service RandomAPI!</p>
         <button class="tap"><a href=""> Learn More</a></button>
     </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

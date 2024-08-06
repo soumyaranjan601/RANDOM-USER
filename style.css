@@ -1,14 +1,19 @@
-
+.container-border{
+  position: absolute;
+  position: relative;
+  top: -16px;
+  left: -8px;
+}
 .line{
     height: 39px;
     width:1230px;
     background-color: rgb(17, 17, 17);
+    bottom: unset;
 }
 .nav-pills{
     display: flex;
     list-style-type: none;
     margin-left: 250px;
-   
 }
 .list{
     padding: 10px;
@@ -16,7 +21,7 @@
     margin-top: 0.7rem;
     font-family: arial;
 }
-a{
+.list a{
     text-decoration: none;
     color: white;
 }
@@ -30,23 +35,23 @@ a{
 .box2{
     height: 230px;
     width: 470px;
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(255, 255, 255);
     position: relative;
-    position: absolute;
-    left: 390px;
-    bottom: 210px;
+    left: 380px;
+    top: 135px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px gray;
 }
+
 .box3{
     height: 140px;
     width: 460px;
-    left: 390px;
-    bottom: 44px;
+    left: 382px;
     padding: 3px;
     border: 0.01px solid rgb(132, 126, 126);
     position: relative;
-    position: absolute;
+    top: 150px;
+    text-align: center;
 }
 .heading{
     align-items: center;
@@ -61,7 +66,9 @@ a{
     color: white;
     font-size: 12px;
     font-family:Arial;
-
+  }
+.text1 a{
+  color: rgb(10, 132, 220);
 }
 .icon{
   position: absolute;
@@ -134,16 +141,20 @@ a{
   .tap{
     position: relative;
     position: absolute;
-    margin: 105px 180px;
+    margin: 0px -48px;
     height: 30px;
-    width: 100px;
-    color: white;
+    width: 95px;
     background-color: rgb(129, 176, 59);
-    border-inline-style:  none;
+    border-inline-style: none;
     border: 0cap;
     border-radius: 2px;
+    font-size: 11px;
   }
-  .gen-img{
+  .tap a{
+    text-decoration: none;
+    color: white;
+  }
+  #user-img{
     border: 1px solid black;
     height: 100px;
     width: 100px;
@@ -152,3 +163,58 @@ a{
     margin: 10px 180px;
     border-radius: 50%;
   }
+  .text-2{
+    margin:0px 190px ;
+    position: relative;
+    position: absolute;
+    font-size: 9px;
+  }
+  .box3 h2{
+    font-size: 10px;
+
+  }
+  .service{
+    font-size: 12px;
+  }
+  #icon-1{
+    height: 30px;
+    width: 30px;
+    margin: 180px 90px;
+
+  }
+  #icon-2{
+    height: 29px;
+    width: 25px;
+    margin: 180px -70px;
+  }
+  
+  #icon-3{
+    height: 27px;
+    width: 27px;
+    margin: 180px 90px;
+  }
+  
+  #icon-4{
+    height: 28px;
+    width: 30px;
+    margin: 180px -70px;
+  }
+  
+  #icon-5{
+    height: 28px;
+    width: 27px;
+    margin: 180px 90px;
+  }
+  
+  #icon-6{
+    height: 26px;
+    width: 28px;
+    margin: 180px -70px;
+  }
+  .box2-name{
+    position: relative;
+    position: absolute;
+   top: 100px;
+   left: 150px;
+  }
+  
